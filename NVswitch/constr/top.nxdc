@@ -1,0 +1,5 @@
+top=top
+
+a (SW0, SW4, SW8, SW12)
+b (SW1, SW5, SW9, SW13)
+f (LD0, LD4, LD8, LD12)

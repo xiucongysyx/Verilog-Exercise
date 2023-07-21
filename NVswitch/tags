@@ -1,0 +1,121 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/xiucong/Verilog-Exercise/NVswitch/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+$(BIN)	Makefile	/^$(BIN): $(VSRCS) $(CSRCS) $(NVBOARD_ARCHIVE)$/;"	t
+$(SRC_AUTO_BIND)	Makefile	/^$(SRC_AUTO_BIND): $(NXDC_FILE)$/;"	t
+/home/xiucong/Verilog-Exercise/NVswitch/build/top	build/obj_dir/Vtop.mk	/^\/home\/xiucong\/Verilog-Exercise\/NVswitch\/build\/top: $(VK_USER_OBJS) $(VK_GLOBAL_OBJS) $(VM_/;"	t
+BIN	Makefile	/^BIN = $(BUILD_DIR)\/$(TOPNAME)$/;"	m
+BUILD_DIR	Makefile	/^BUILD_DIR = .\/build$/;"	m
+CSRCS	Makefile	/^CSRCS = $(shell find $(abspath .\/csrc) -name "*.c" -or -name "*.cc" -or -name "*.cpp")$/;"	m
+INCFLAGS	Makefile	/^INCFLAGS = $(addprefix -I , $(INC_PATH))$/;"	m
+INC_PATH	Makefile	/^INC_PATH ?= $/;"	m
+NXDC_FILE	Makefile	/^NXDC_FILE = constr\/top.nxdc$/;"	m
+OBJ_DIR	Makefile	/^OBJ_DIR = $(BUILD_DIR)\/obj_dir$/;"	m
+PERL	build/obj_dir/Vtop.mk	/^PERL = perl$/;"	m
+SRC_AUTO_BIND	Makefile	/^SRC_AUTO_BIND = $(abspath $(BUILD_DIR)\/auto_bind.cpp)$/;"	m
+SYSTEMC_INCLUDE	build/obj_dir/Vtop.mk	/^SYSTEMC_INCLUDE ?= $/;"	m
+SYSTEMC_LIBDIR	build/obj_dir/Vtop.mk	/^SYSTEMC_LIBDIR ?= $/;"	m
+TOP	build/obj_dir/Vtop__Syms.h	/^    Vtop___024root                 TOP;$/;"	m	class:Vtop__Syms	typeref:typename:Vtop___024root
+TOPNAME	Makefile	/^TOPNAME = top$/;"	m
+VERILATED_VTOP_H_	build/obj_dir/Vtop.h	/^#define VERILATED_VTOP_H_ /;"	d
+VERILATED_VTOP__SYMS_H_	build/obj_dir/Vtop__Syms.h	/^#define VERILATED_VTOP__SYMS_H_ /;"	d
+VERILATED_VTOP___024ROOT_H_	build/obj_dir/Vtop___024root.h	/^#define VERILATED_VTOP___024ROOT_H_ /;"	d
+VERILATOR	Makefile	/^VERILATOR = verilator$/;"	m
+VERILATOR_ROOT	build/obj_dir/Vtop.mk	/^VERILATOR_ROOT = \/usr\/local\/share\/verilator$/;"	m
+VL_INCLUDE_OPT	build/obj_dir/Vtop__ALL.cpp	/^#define VL_INCLUDE_OPT /;"	d	file:
+VL_NOT_FINAL	build/obj_dir/Vtop.h	/^class alignas(VL_CACHE_LINE_BYTES) Vtop VL_NOT_FINAL : public VerilatedModel {$/;"	c
+VM_C11	build/obj_dir/Vtop_classes.mk	/^VM_C11 = 1$/;"	m
+VM_COVERAGE	build/obj_dir/Vtop_classes.mk	/^VM_COVERAGE = 0$/;"	m
+VM_MODPREFIX	build/obj_dir/Vtop.mk	/^VM_MODPREFIX = Vtop$/;"	m
+VM_PARALLEL_BUILDS	build/obj_dir/Vtop_classes.mk	/^VM_PARALLEL_BUILDS = 0$/;"	m
+VM_PCLI	build/obj_dir/Vtop.mk	/^VM_PCLI = 1$/;"	m
+VM_PREFIX	build/obj_dir/Vtop.mk	/^VM_PREFIX = Vtop$/;"	m
+VM_PROFC	build/obj_dir/Vtop.mk	/^VM_PROFC = 0$/;"	m
+VM_SC	build/obj_dir/Vtop.mk	/^VM_SC = 0$/;"	m
+VM_SC_TARGET_ARCH	build/obj_dir/Vtop.mk	/^VM_SC_TARGET_ARCH = linux$/;"	m
+VM_SP_OR_SC	build/obj_dir/Vtop.mk	/^VM_SP_OR_SC = $(VM_SC)$/;"	m
+VM_TIMING	build/obj_dir/Vtop_classes.mk	/^VM_TIMING = 0$/;"	m
+VM_TRACE	build/obj_dir/Vtop_classes.mk	/^VM_TRACE = 0$/;"	m
+VM_TRACE_FST	build/obj_dir/Vtop_classes.mk	/^VM_TRACE_FST = 0$/;"	m
+VM_TRACE_VCD	build/obj_dir/Vtop_classes.mk	/^VM_TRACE_VCD = 0$/;"	m
+VM_USER_CFLAGS	build/obj_dir/Vtop.mk	/^VM_USER_CFLAGS = \\$/;"	m
+VM_USER_CLASSES	build/obj_dir/Vtop.mk	/^VM_USER_CLASSES = \\$/;"	m
+VM_USER_DIR	build/obj_dir/Vtop.mk	/^VM_USER_DIR = \\$/;"	m
+VM_USER_LDLIBS	build/obj_dir/Vtop.mk	/^VM_USER_LDLIBS = \\$/;"	m
+VSRCS	Makefile	/^VSRCS = $(shell find $(abspath .\/vsrc) -name "*.v")$/;"	m
+Vtop	build/obj_dir/Vtop.cpp	/^Vtop::Vtop(VerilatedContext* _vcontextp__, const char* _vcname__)$/;"	f	class:Vtop
+Vtop	build/obj_dir/Vtop.cpp	/^Vtop::Vtop(const char* _vcname__)$/;"	f	class:Vtop
+Vtop__Syms	build/obj_dir/Vtop__Syms.cpp	/^Vtop__Syms::Vtop__Syms(VerilatedContext* contextp, const char* namep, Vtop* modelp)$/;"	f	class:Vtop__Syms
+Vtop__Syms	build/obj_dir/Vtop__Syms.h	/^class alignas(VL_CACHE_LINE_BYTES)Vtop__Syms final : public VerilatedSyms {$/;"	c
+Vtop___024root	build/obj_dir/Vtop___024root.h	/^class alignas(VL_CACHE_LINE_BYTES) Vtop___024root final : public VerilatedModule {$/;"	c
+Vtop___024root	build/obj_dir/Vtop___024root__Slow.cpp	/^Vtop___024root::Vtop___024root(Vtop__Syms* symsp, const char* v__name)$/;"	f	class:Vtop___024root
+Vtop___024root___ctor_var_reset	build/obj_dir/Vtop___024root__DepSet_heccd7ead__0__Slow.cpp	/^VL_ATTR_COLD void Vtop___024root___ctor_var_reset(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:VL_ATTR_COLD void
+Vtop___024root___dump_triggers__act	build/obj_dir/Vtop___024root__DepSet_heccd7ead__0__Slow.cpp	/^VL_ATTR_COLD void Vtop___024root___dump_triggers__act(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:VL_ATTR_COLD void
+Vtop___024root___dump_triggers__ico	build/obj_dir/Vtop___024root__DepSet_heccd7ead__0__Slow.cpp	/^VL_ATTR_COLD void Vtop___024root___dump_triggers__ico(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:VL_ATTR_COLD void
+Vtop___024root___dump_triggers__nba	build/obj_dir/Vtop___024root__DepSet_heccd7ead__0__Slow.cpp	/^VL_ATTR_COLD void Vtop___024root___dump_triggers__nba(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:VL_ATTR_COLD void
+Vtop___024root___dump_triggers__stl	build/obj_dir/Vtop___024root__DepSet_heccd7ead__0__Slow.cpp	/^VL_ATTR_COLD void Vtop___024root___dump_triggers__stl(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:VL_ATTR_COLD void
+Vtop___024root___eval	build/obj_dir/Vtop___024root__DepSet_heccd7ead__0.cpp	/^void Vtop___024root___eval(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:void
+Vtop___024root___eval_act	build/obj_dir/Vtop___024root__DepSet_heccd7ead__0.cpp	/^void Vtop___024root___eval_act(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:void
+Vtop___024root___eval_debug_assertions	build/obj_dir/Vtop___024root__DepSet_heccd7ead__0.cpp	/^void Vtop___024root___eval_debug_assertions(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:void
+Vtop___024root___eval_final	build/obj_dir/Vtop___024root__DepSet_heccd7ead__0__Slow.cpp	/^VL_ATTR_COLD void Vtop___024root___eval_final(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:VL_ATTR_COLD void
+Vtop___024root___eval_ico	build/obj_dir/Vtop___024root__DepSet_heccd7ead__0.cpp	/^void Vtop___024root___eval_ico(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:void
+Vtop___024root___eval_initial	build/obj_dir/Vtop___024root__DepSet_heccd7ead__0__Slow.cpp	/^VL_ATTR_COLD void Vtop___024root___eval_initial(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:VL_ATTR_COLD void
+Vtop___024root___eval_nba	build/obj_dir/Vtop___024root__DepSet_heccd7ead__0.cpp	/^void Vtop___024root___eval_nba(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:void
+Vtop___024root___eval_settle	build/obj_dir/Vtop___024root__DepSet_heccd7ead__0__Slow.cpp	/^VL_ATTR_COLD void Vtop___024root___eval_settle(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:VL_ATTR_COLD void
+Vtop___024root___eval_static	build/obj_dir/Vtop___024root__DepSet_heccd7ead__0__Slow.cpp	/^VL_ATTR_COLD void Vtop___024root___eval_static(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:VL_ATTR_COLD void
+Vtop___024root___eval_stl	build/obj_dir/Vtop___024root__DepSet_heccd7ead__0__Slow.cpp	/^VL_ATTR_COLD void Vtop___024root___eval_stl(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:VL_ATTR_COLD void
+Vtop___024root___eval_triggers__act	build/obj_dir/Vtop___024root__DepSet_h84412442__0.cpp	/^void Vtop___024root___eval_triggers__act(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:void
+Vtop___024root___eval_triggers__ico	build/obj_dir/Vtop___024root__DepSet_h84412442__0.cpp	/^void Vtop___024root___eval_triggers__ico(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:void
+Vtop___024root___eval_triggers__stl	build/obj_dir/Vtop___024root__DepSet_h84412442__0__Slow.cpp	/^VL_ATTR_COLD void Vtop___024root___eval_triggers__stl(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:VL_ATTR_COLD void
+Vtop___024root___ico_sequent__TOP__0	build/obj_dir/Vtop___024root__DepSet_heccd7ead__0.cpp	/^VL_INLINE_OPT void Vtop___024root___ico_sequent__TOP__0(Vtop___024root* vlSelf) {$/;"	f	typeref:typename:VL_INLINE_OPT void
+__VactContinue	build/obj_dir/Vtop___024root.h	/^    CData\/*0:0*\/ __VactContinue;$/;"	m	class:Vtop___024root	typeref:typename:CData
+__VactIterCount	build/obj_dir/Vtop___024root.h	/^    IData\/*31:0*\/ __VactIterCount;$/;"	m	class:Vtop___024root	typeref:typename:IData
+__VactTriggered	build/obj_dir/Vtop___024root.h	/^    VlTriggerVec<0> __VactTriggered;$/;"	m	class:Vtop___024root	typeref:typename:VlTriggerVec<0>
+__Vconfigure	build/obj_dir/Vtop___024root__Slow.cpp	/^void Vtop___024root::__Vconfigure(bool first) {$/;"	f	class:Vtop___024root	typeref:typename:void
+__VicoIterCount	build/obj_dir/Vtop___024root.h	/^    IData\/*31:0*\/ __VicoIterCount;$/;"	m	class:Vtop___024root	typeref:typename:IData
+__VicoTriggered	build/obj_dir/Vtop___024root.h	/^    VlTriggerVec<1> __VicoTriggered;$/;"	m	class:Vtop___024root	typeref:typename:VlTriggerVec<1>
+__Vm_deleter	build/obj_dir/Vtop__Syms.h	/^    VlDeleter __Vm_deleter;$/;"	m	class:Vtop__Syms	typeref:typename:VlDeleter
+__Vm_didInit	build/obj_dir/Vtop__Syms.h	/^    bool __Vm_didInit = false;$/;"	m	class:Vtop__Syms	typeref:typename:bool
+__Vm_modelp	build/obj_dir/Vtop__Syms.h	/^    Vtop* const __Vm_modelp;$/;"	m	class:Vtop__Syms	typeref:typename:Vtop * const
+__VnbaTriggered	build/obj_dir/Vtop___024root.h	/^    VlTriggerVec<0> __VnbaTriggered;$/;"	m	class:Vtop___024root	typeref:typename:VlTriggerVec<0>
+__VstlIterCount	build/obj_dir/Vtop___024root.h	/^    IData\/*31:0*\/ __VstlIterCount;$/;"	m	class:Vtop___024root	typeref:typename:IData
+__VstlTriggered	build/obj_dir/Vtop___024root.h	/^    VlTriggerVec<1> __VstlTriggered;$/;"	m	class:Vtop___024root	typeref:typename:VlTriggerVec<1>
+a	vsrc/top.v	/^    input a,$/;"	p	module:top
+all	Makefile	/^all: default$/;"	t
+auto_bind.o	build/obj_dir/Vtop.mk	/^auto_bind.o: \/home\/xiucong\/Verilog-Exercise\/NVswitch\/build\/auto_bind.cpp$/;"	t
+b	vsrc/top.v	/^    input b,$/;"	p	module:top
+clean	Makefile	/^clean:$/;"	t
+default	Makefile	/^default: $(BIN)$/;"	t
+default	build/obj_dir/Vtop.mk	/^default: \/home\/xiucong\/Verilog-Exercise\/NVswitch\/build\/top$/;"	t
+dut	csrc/top.cpp	/^static TOP_NAME dut;$/;"	v	typeref:typename:TOP_NAME	file:
+eval	build/obj_dir/Vtop.h	/^    void eval() { eval_step(); }$/;"	f	class:VL_NOT_FINAL	typeref:typename:void
+eval_end_step	build/obj_dir/Vtop.h	/^    void eval_end_step() {}$/;"	f	class:VL_NOT_FINAL	typeref:typename:void
+eval_step	build/obj_dir/Vtop.cpp	/^void Vtop::eval_step() {$/;"	f	class:Vtop	typeref:typename:void
+eventsPending	build/obj_dir/Vtop.cpp	/^bool Vtop::eventsPending() { return false; }$/;"	f	class:Vtop	typeref:typename:bool
+f	vsrc/top.v	/^    output f$/;"	p	module:top
+final	build/obj_dir/Vtop.cpp	/^VL_ATTR_COLD void Vtop::final() {$/;"	f	class:Vtop	typeref:typename:VL_ATTR_COLD void
+hierName	build/obj_dir/Vtop.cpp	/^const char* Vtop::hierName() const { return vlSymsp->name(); }$/;"	f	class:Vtop	typeref:typename:const char *
+main	csrc/top.cpp	/^int main() {$/;"	f	typeref:typename:int
+modelName	build/obj_dir/Vtop.cpp	/^const char* Vtop::modelName() const { return "Vtop"; }$/;"	f	class:Vtop	typeref:typename:const char *
+name	build/obj_dir/Vtop.cpp	/^const char* Vtop::name() const {$/;"	f	class:Vtop	typeref:typename:const char *
+name	build/obj_dir/Vtop__Syms.h	/^    const char* name() { return TOP.name(); }$/;"	f	class:Vtop__Syms	typeref:typename:const char *
+nextTimeSlot	build/obj_dir/Vtop.cpp	/^uint64_t Vtop::nextTimeSlot() {$/;"	f	class:Vtop	typeref:typename:uint64_t
+nvboard_bind_all_pins	build/auto_bind.cpp	/^void nvboard_bind_all_pins(Vtop* top) {$/;"	f	typeref:typename:void
+rootp	build/obj_dir/Vtop.h	/^    Vtop___024root* const rootp;$/;"	m	class:VL_NOT_FINAL	typeref:typename:Vtop___024root * const
+run	Makefile	/^run: $(BIN)$/;"	t
+threads	build/obj_dir/Vtop.cpp	/^unsigned Vtop::threads() const { return 1; }$/;"	f	class:Vtop	typeref:typename:unsigned
+top	vsrc/top.v	/^module top($/;"	m
+top.o	build/obj_dir/Vtop.mk	/^top.o: \/home\/xiucong\/Verilog-Exercise\/NVswitch\/csrc\/top.cpp$/;"	t
+vlSymsp	build/obj_dir/Vtop.h	/^    Vtop__Syms* const vlSymsp;$/;"	m	class:VL_NOT_FINAL	typeref:typename:Vtop__Syms * const
+vlSymsp	build/obj_dir/Vtop___024root.h	/^    Vtop__Syms* const vlSymsp;$/;"	m	class:Vtop___024root	typeref:typename:Vtop__Syms * const
+~Vtop	build/obj_dir/Vtop.cpp	/^Vtop::~Vtop() {$/;"	f	class:Vtop
+~Vtop__Syms	build/obj_dir/Vtop__Syms.cpp	/^Vtop__Syms::~Vtop__Syms()$/;"	f	class:Vtop__Syms
+~Vtop___024root	build/obj_dir/Vtop___024root__Slow.cpp	/^Vtop___024root::~Vtop___024root() {$/;"	f	class:Vtop___024root
