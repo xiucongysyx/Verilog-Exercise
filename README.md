@@ -13,3 +13,5 @@
 ## light
   这是一个流水灯的练习，通过NVBoard进行输出。
 
+## mux21
+  2选1 选择器，使用Verilator。
