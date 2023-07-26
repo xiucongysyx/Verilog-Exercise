@@ -1,4 +1,5 @@
 module = mux21
+CPP_NAME = mux21
 
 # checkout space
 ifneq ($(words $(CURDIR)),1)
@@ -16,7 +17,7 @@ VERILATOR_FLAGS += --build
 
 # Input files
 VERILATOR_INPUT += vsrc/$(module).v
-VERILATOR_INPUT += csrc/$(module).cpp
+VERILATOR_INPUT += csrc/$(CPP_NAME).cpp
 
 run:
 	@echo
