@@ -1,0 +1,43 @@
+module fsm(
+    input clk,in,reset,
+    output out
+);
+
+    parameter [2:0] S0 = 0, S1 = 1, S2 = 2, S3 = 3, S4 = 4;
+    reg [2:0] state_din, state_dout;
+
+    always @(negedge clk,reset) begin
+        if(!reset)
+            state_din <= S0;
+        else
+            state_din <= state_dout;
+    end
+
+    always @(posedge clk,in) begin
+        case(state_din)
+            S0: begin
+                if(in) state_dout <= S1;
+                else state_dout <= S0;
+            end
+            S1: begin
+                if(in) state_dout <= S2;
+                else state_dout <= S0;
+            end
+            S2: begin
+                if(in) state_dout <= S3;
+                else state_dout <= S0;
+            end
+            S3: begin
+                if(in) state_dout <= S4;
+                else state_dout <= S0;
+            end
+            S4: begin
+                if(in) state_dout <= S4;
+                else state_dout <= S0;
+            end
+            default: state_dout <= S0;
+        endcase
+    end
+
+    assign out = (state_dout == S4)?1'b1:1'b0;
+endmodule
